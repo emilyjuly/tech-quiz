@@ -7,7 +7,7 @@
             class="question"
         />
         <div class="card">
-            <p class="title">Choose the quiz theme</p>
+            <p class="title">Escolha o tema do quiz</p>
             <div class="line"></div>
             <div class="container">
                 <div class="option-card">
@@ -29,7 +29,7 @@
                     <p>C#</p>
                 </div>
                 <div class="option-card">
-                    <p>DATABASE</p>
+                    <p>BANCO DE DADOS</p>
                 </div>
             </div>
             <div class="button">

@@ -2,9 +2,9 @@
     <div>
         <HeaderPage />
         <img src="../assets/image-page-home.png" alt="people working" />
-        <p>Check your knowledge and have fun!</p>
+        <p>Testes seus conhecimentos e se divirta!</p>
         <button class="cssbuttons-io-button">
-            Choose a theme
+            Escolha um tema
             <div class="icon">
                 <svg
                     height="24"
@@ -27,9 +27,9 @@
         />
         <div class="report-area">
             <p class="report">
-                Have you found any bugs or have any suggestions?
+                Achou algum bug ou tem alguma sugestão?
             </p>
-            <p class="report">Tell us!</p>
+            <p class="report">Nos conte!</p>
             <div class="icons">
                 <img
                     src="../assets/bug_report.png"
