@@ -13,8 +13,6 @@ export default {
 </template>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Amiko:wght@600;700&display=swap");
-
 footer {
     display: flex;
     justify-content: space-between;

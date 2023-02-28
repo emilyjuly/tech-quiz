@@ -18,8 +18,6 @@ export default {
 </template>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Amiko:wght@600;700&display=swap");
-
 header {
     background-color: #ffd400;
     width: 100%;
