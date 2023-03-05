@@ -12,7 +12,7 @@
             </div>
             <div class="container-right">
                 <div class="right-top">
-                    <p>Testes seus conhecimentos e se divirta!</p>
+                    <p>Teste seus conhecimentos e se divirta!</p>
 
                     <button class="cssbuttons-io-button">
                         Escolha um tema
