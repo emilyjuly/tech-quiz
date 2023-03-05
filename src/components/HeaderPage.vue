@@ -46,7 +46,6 @@ header {
     height: 85px;
     border-bottom: solid 4px #2e294e;
     display: flex;
-    position: fixed;
     justify-content: center;
     align-items: center;
 }
