@@ -7,7 +7,7 @@
                 <div class="sub-top">
                     <p class="title">BANCO DE DADOS</p>
                     <div class="time">
-                        <img src="../assets/clock icon.png" alt="clock" />
+                        <img src="../assets/clock-icon.png" alt="clock" />
                         <div class="square"><p class="text-time">00</p></div>
                         <div class="divisor"></div>
                         <div class="square"><p class="text-time">10</p></div>

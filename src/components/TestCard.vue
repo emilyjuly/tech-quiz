@@ -10,7 +10,7 @@
                 <p class="test-tips">Apenas teste!</p>
             </div>
 
-            <img src="../assets/icon test.png" alt="timer" />
+            <img src="../assets/icon-test.png" alt="timer" />
         </div>
     </div>
 </template>
