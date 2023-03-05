@@ -18,10 +18,10 @@ export default {
 
 <template>
     <div id="app">
-        <!-- <HomePage></HomePage> -->
+        <HomePage></HomePage>
         <!-- <HomePage2></HomePage2> -->
         <!-- <ModeQuiz></ModeQuiz> -->
-        <QuizPage></QuizPage>
+        <!-- <QuizPage></QuizPage> -->
     </div>
 </template>
 

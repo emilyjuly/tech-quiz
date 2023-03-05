@@ -44,18 +44,15 @@
         </div>
 
         <img class="baloon" src="../assets/baloon-quiz.png" alt="baloon-quiz" />
-
-        <FooterPage />
     </div>
 </template>
 
 <script>
 import HeaderPage from "../components/HeaderPage.vue";
-import FooterPage from "../components/FooterPage.vue";
 
 export default {
     name: "HomePage",
-    components: { HeaderPage, FooterPage },
+    components: { HeaderPage },
 };
 </script>
 

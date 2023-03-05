@@ -13,13 +13,11 @@
             <HardCard></HardCard>
             <TestCard></TestCard>
         </div>
-        <FooterPage />
     </div>
 </template>
 
 <script>
 import HeaderPage from "../components/HeaderPage.vue";
-import FooterPage from "../components/FooterPage.vue";
 import EasyCard from "../components/EasyCard.vue";
 import MediumCard from "../components/MediumCard.vue";
 import HardCard from "../components/HardCard.vue";
@@ -29,7 +27,6 @@ export default {
     name: "HomePage",
     components: {
         HeaderPage,
-        FooterPage,
         EasyCard,
         MediumCard,
         HardCard,

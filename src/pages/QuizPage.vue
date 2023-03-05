@@ -179,19 +179,16 @@
                 </div>
             </div>
         </div>
-        <FooterPage />
     </div>
 </template>
 
 <script>
 import HeaderPage from "../components/HeaderPage.vue";
-import FooterPage from "../components/FooterPage.vue";
 
 export default {
     name: "QuizPage",
     components: {
         HeaderPage,
-        FooterPage,
     },
 };
 </script>
