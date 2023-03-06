@@ -19,9 +19,9 @@ export default {
 <template>
     <div id="app">
         <HomePage></HomePage>
-        <!-- <HomePage2></HomePage2> -->
-        <!-- <ModeQuiz></ModeQuiz> -->
-        <!-- <QuizPage></QuizPage> -->
+        <HomePage2></HomePage2>
+        <ModeQuiz></ModeQuiz>
+        <QuizPage></QuizPage>
     </div>
 </template>
 
