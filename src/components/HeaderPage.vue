@@ -22,6 +22,7 @@ export default {
                         src="../assets/github-icon.png"
                         alt="github icon"
                         class="icon"
+                        title="Repositório do projeto"
                     />
                 </a>
                 <a
@@ -32,6 +33,7 @@ export default {
                         src="../assets/linkedin-icon.png"
                         alt="linkedin icon"
                         class="icon"
+                        title="Linkedin da desenvolvedora"
                     />
                 </a>
             </div>
