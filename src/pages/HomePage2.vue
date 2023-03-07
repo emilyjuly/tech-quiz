@@ -1,49 +1,61 @@
 <template>
     <div>
         <HeaderPage />
-        <img
-            src="../assets/question.png"
-            alt="question mark"
-            class="question"
-        />
-        <div class="card">
-            <p class="title">Escolha o tema do quiz</p>
-            <div class="line"></div>
-            <div class="container">
-                <div class="option-card">
-                    <p>SCRUM</p>
-                </div>
-                <div class="option-card">
-                    <p>JAVASCRIPT</p>
-                </div>
-                <div class="option-card">
-                    <p>HTML & CSS</p>
-                </div>
-                <div class="option-card">
-                    <p>LINUX</p>
-                </div>
-                <div class="option-card">
-                    <p>JAVA</p>
-                </div>
-                <div class="option-card">
-                    <p>C#</p>
-                </div>
-                <div class="option-card">
-                    <p>BANCO DE DADOS</p>
+        <div class="container">
+            <div class="left">
+                <img
+                    src="../assets/question.png"
+                    alt="question mark"
+                    class="question"
+                />
+            </div>
+            <div class="mid">
+                <div class="card">
+                    <p class="title">Escolha o tema do quiz</p>
+                    <div class="line"></div>
+                    <div class="options">
+                        <div class="option-card">
+                            <p>SCRUM</p>
+                        </div>
+                        <div class="option-card">
+                            <p>JAVASCRIPT</p>
+                        </div>
+                        <div class="option-card">
+                            <p>HTML & CSS</p>
+                        </div>
+                        <div class="option-card">
+                            <p>LINUX</p>
+                        </div>
+                        <div class="option-card">
+                            <p>JAVA</p>
+                        </div>
+                        <div class="option-card">
+                            <p>C#</p>
+                        </div>
+                        <div class="option-card">
+                            <p>BANCO DE DADOS</p>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="button">
+                        <button>
+                            <img
+                                src="../assets/rigth-arrow.png"
+                                alt="arrow"
+                                class="arrow"
+                            />
+                        </button>
+                    </div>
                 </div>
             </div>
-            <div class="button">
-                <button>
-                    <img
-                        src="../assets/rigth-arrow.png"
-                        alt="arrow"
-                        class="arrow"
-                    />
-                </button>
+            <div class="right">
+                <img
+                    class="baloon"
+                    src="../assets/baloon-quiz.png"
+                    alt="baloon-quiz"
+                />
             </div>
         </div>
-
-        <img class="baloon" src="../assets/baloon-quiz.png" alt="baloon-quiz" />
     </div>
 </template>
 
@@ -57,45 +69,57 @@ export default {
 </script>
 
 <style scoped>
-.question {
-    width: 60px;
-    height: 80px;
-}
-
-.button {
-    display: flex;
-    justify-content: right;
-    background-color: #3d3764;
-}
-
-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffd400;
-    width: 40px;
-    border-radius: 50px;
-    border: none;
-    cursor: pointer;
-    margin: 10px;
-    padding: 4px;
-}
-
-.arrow {
-    width: 30px;
-    height: 30px;
-    padding: 5px;
-    background-color: #ffd400;
-    border-radius: 50px;
-}
-
 .container {
     display: flex;
-    flex-direction: column;
-    background-color: #3d3764;
-    margin: 3px;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.left {
+    display: flex;
+    justify-content: left;
+    width: 25%;
+    height: 100%;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
     width: 50%;
     height: 100%;
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+    width: 25%;
+}
+.question {
+    width: 100px;
+    height: 120px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: #1e1e1e 0px 3px 8px;
+    width: 100%;
+    height: 100%;
+    margin: 50px;
+    background-color: #3d3764;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #3d3764;
 }
 
 .option-card {
@@ -105,8 +129,27 @@ button {
     border-radius: 5px;
     width: 140px;
     height: 30px;
-    margin: auto;
+    margin: 20px;
     background-color: #1f252d;
+}
+
+button {
+    display: flex;
+    width: 100%;
+    background-color: #ffd400;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    padding: 3px;
+    justify-content: center;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.arrow {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-color: #ffd400;
 }
 
 p {
@@ -121,7 +164,7 @@ p {
     font-family: "Amiko", sans-serif;
     color: #ffd400;
     font-size: 15px;
-    padding: 3px;
+    padding: 10px;
     border-radius: 5px;
 }
 
@@ -132,21 +175,40 @@ p {
 }
 
 .baloon {
-    margin-top: 50px;
-    margin-left: 300px;
-    width: 90px;
-    height: 80px;
+    margin: 30px;
+    margin-top: 300px;
+    width: 160px;
+    height: 150px;
 }
 
-.card {
-    display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-    box-shadow: #1e1e1e 0px 3px 8px;
-    width: 90%;
-    height: 500px;
-    margin: auto;
-    margin-top: 18px;
-    background-color: #3d3764;
+@media screen and (max-width: 1000px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .left {
+        display: flex;
+        width: 100%;
+    }
+
+    .mid {
+        display: flex;
+        width: 100%;
+    }
+
+    .right {
+        display: flex;
+        width: 100%;
+    }
+
+    .baloon {
+        margin: 10px;
+        width: 130px;
+        height: 120px;
+    }
 }
 </style>
